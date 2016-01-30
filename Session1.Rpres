@@ -1,0 +1,78 @@
+Intermediate Stats CSP 708 (Session 1)
+========================================================
+author: Steven Vannoy
+date: 1/25/2016
+
+Agenda
+========================================================
+
+- Review Syllabus and Course Goals
+- Share Research Interests
+- Overview of Data Analysis
+- Lab - Getting Started with R
+- Key statistical concepts
+
+Review Syllabus and Course Goals
+========================================================
+
+- Statistics vs Data Analsysis ??
+- I Want Your Feedback
+
+What Are Your Research Goals
+========================================================
+
+The Data Analysis Cycle
+========================================================
+
+- Formulate a research question
+- Design a study to collect data to answer your question
+- Collect data
+- Clean and format the data
+- Analyze the data
+- Interpret results
+- Communicate results
+
+Lab - Getting Started with R
+========================================================
+
+- Why Code?
+- Nuts and Bolts
+
+Lab - Why Code?
+========================================================
+
+- Easily reproduce your analyses
+- When I discover an error due to looking at my output…
+- Next month when I come back to this project…
+- Next week when I've collected more data…
+- Next year when I do something very similar…
+- Four years from now when I get a request from a doc student…
+- One week after I publish and a skeptical colleague wants to verify my findings (or I myself become skeptical)…
+
+
+Lab - Nuts & Bolts
+========================================================
+
+- Why Code?
+- Nuts and Bolts
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Next Week
+========================================================
+
+- Review results of 3 articles
+- Focus on descriptives, distributions, probabilities
