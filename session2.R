@@ -40,10 +40,10 @@ plot_ly(x=x, type = "histogram")
   xbars <- numeric() # declare xbars variable
 
   # Loop through X times calculating the mean of the sample each time
-  for (i in 1:1000){
+  for (i in 1:100){
 
     #xbars[i] <- mean(rnorm(n=20, mean=0, sd=1))
-    xbars[i] <- mean(runif(n=20, min=-1, max=1)) # Calculate the mean of the sample
+    xbars[i] <- mean(runif(n=200, min=-1, max=1)) # Calculate the mean of the sample
   }
 
 # What is the mean of the means?
@@ -51,7 +51,7 @@ mean(xbars)
 
 # What is the distribution of the means
 hist(xbars)
-d <- density(xbars)
+d <- density(xbars, kernel="gaussian")
 plot(d)
 
 
