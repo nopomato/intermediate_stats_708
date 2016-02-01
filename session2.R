@@ -1,4 +1,4 @@
-## 
+##  
 # session2.R
 # Purpose: Demonstration code for session two of CSP-708 Spring 2016
 #
