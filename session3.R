@@ -1,4 +1,4 @@
-# Blah blah changing things
+Sam, this is for you to remove
 
 ##
 # session3.R
